@@ -17,7 +17,7 @@ function MissionVisionSection() {
               reliable, and efficient solutions that drive growth and enhance
               operational efficiency. At Brandigo, we are committed to fostering
               long-term partnerships with our clients, helping them navigate the
-              complexities of today's business environment with ease.
+              complexities of today business environment with ease.
             </p>
           </div>
         </div>
