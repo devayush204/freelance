@@ -24,7 +24,7 @@ function MainContent() {
       </p>
       <TeamSection />
       <p className="mt-40 ml-3.5 text-2xl font-semibold leading-10 text-center text-black max-md:mt-10 max-md:max-w-full">
-        Our team's dedication and expertise are the driving forces behind our
+        Our team dedication and expertise are the driving forces behind our
         success, enabling us to deliver cutting-edge solutions and exceptional
         service to our clients.
       </p>
@@ -99,13 +99,11 @@ function MainContent() {
         <MissionVisionSection />
       </div>
       <img
-        loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/26ed599666b5cb2fc3bb94141d3d44a96ecf0ba103e433d698e045a8aa730abe?placeholderIfAbsent=true&apiKey=0d7a153a28b9484c96314809a6915196"
         alt=""
         className="object-contain mt-96 ml-52 w-6 aspect-square max-md:mt-10 max-md:ml-2.5"
       />
       <img
-        loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/26ed599666b5cb2fc3bb94141d3d44a96ecf0ba103e433d698e045a8aa730abe?placeholderIfAbsent=true&apiKey=0d7a153a28b9484c96314809a6915196"
         alt=""
         className="object-contain mt-14 ml-52 w-6 aspect-square max-md:mt-10 max-md:ml-2.5"
