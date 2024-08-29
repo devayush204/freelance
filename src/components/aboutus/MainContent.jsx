@@ -11,7 +11,7 @@ import WhyChooseSection from "./WhyChooseSection";
 
 function MainContent() {
   return (
-    <main className="flex flex-col pb-52 bg-white max-md:pb-24">
+    <main className="flex flex-col pb-52 bg-white max-md:pb-24 overflow-hidden">
       <AboutSection />
       <p className="mt-36 ml-3.5 text-2xl font-semibold leading-10 text-center text-black max-md:mt-10 max-md:max-w-full">
         Our journey began with a small team of dedicated professionals who

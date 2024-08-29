@@ -11,7 +11,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
   return (
     <header className="flex flex-col items-center   w-full bg-white  ">
-      <div className="flex flex-col overflow-hidden items-center py-20 gap-10 self-stretch text-center bg-sky-900 ">
+      <div className="flex flex-col overflow-hidden items-center py-20 gap-10 text-center bg-sky-900 ">
         <h1 className="text-6xl font-bold text-black leading-[60px] w-[700px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
           <span className="text-white">{title}</span>
         </h1>

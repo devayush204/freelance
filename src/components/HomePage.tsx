@@ -103,7 +103,7 @@ const HomePage: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col items-start w-[100vw]">
+    <div className="flex flex-col items- w-[100vw] ">
       <Header 
         title="One-stop solution for comprehensive business services"
         subtitle="Welcome to Brandigo, your one-stop solution for comprehensive business services designed to elevate your brand and streamline your operations. With a diverse portfolio of offerings ranging from QR Management Solutions and Soundbox Management to Merchant Management, Printing Solutions, and Digital Marketing, Brandigo is dedicated to empowering businesses with cutting-edge technology and innovative strategies. Our commitment to excellence and customer satisfaction has positioned us as a trusted partner for numerous esteemed clients across various industries."
@@ -120,7 +120,7 @@ const HomePage: React.FC = () => {
             alt=""
             className="object-contain shrink-0 self-stretch my-auto w-12 aspect-square"
           />
-          <div className="flex flex-wrap gap-5 items-start self-stretch">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center ">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}
@@ -170,9 +170,9 @@ const HomePage: React.FC = () => {
         <h2 className="overflow-hidden flex justify-center items-center  mt-20 text-6xl font-extrabold tracking-tighter leading-none text-center text-slate-900 ">
           Latest News/Blogs
         </h2>
-        <div className="flex items-center mt-28 w-full max-md:mt-10 gap-10">
+        <div className=" items-center mt-28 w-full max-md:mt-10 gap-10">
           <div className="w-full flex justify-center items-center gap-10">
-            <div className="flex gap-20 max-md:flex-col">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 max-md:flex-col">
               {blogPosts.map((post, index) => (
                 <BlogCard key={index} {...post} />
               ))}

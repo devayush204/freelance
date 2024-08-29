@@ -14,7 +14,7 @@ const navItems = [
 
 function Header() {
   return (
-    <header className="flex flex-wrap  justify-between w-[100vw] px-20 py-5 text-base">
+    <header className="flex flex-wrap  justify-between w-[100vw] px-10 md:px-20 py-5 text-base">
       <nav className="flex gap-2.5 items-center text-slate-900">
         <img
           loading="lazy"
@@ -22,9 +22,11 @@ function Header() {
           alt="Company logo"
           className="object-contain shrink-0 self-stretch max-w-full aspect-[2.4] w-[185px]"
         />
+        <div className="hidden lg:flex">
         {navItems.map((item, index) => (
           <NavItem key={index} {...item} />
         ))}
+        </div>
       </nav>
       <div className="flex gap-5 items-center self-start mt-2">
         <div className="grow self-stretch my-auto text-slate-900">Login</div>
