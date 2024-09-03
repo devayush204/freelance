@@ -10,12 +10,12 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
   return (
-    <header className="flex flex-col items-center px-10  w-full bg-white  ">
+    <header className="flex flex-col items-center px-6 md:px-10  w-full bg-white  ">
       <div className="flex flex-col overflow-hidden items-center py-20 gap-10 text-center bg-sky-900 ">
-        <h1 className="text-6xl font-bold text-black leading-[60px] w-[700px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
-          <span className="text-white ">{title}</span>
-        </h1>
-        <div className="text-2xl leading-8 text-slate-300 w-[100vw] px-10 ">
+        <p className="md:text-6xl text-4xl font-bold text-white md:leading-[60px] md:w-[700px] ">
+          {title}
+        </p>
+        <div className="text-xl md:text-2xl leading-8 text-slate-300 w-[100vw] px-4 ">
           {subtitle}
         </div>
       <button className="flex z-10 gap-2 items-start pt-2.5 pr-5 pb-3.5 pl-7 mt-0 text-lg leading-none text-center text-white bg-blue-500 rounded-xl border border-blue-500 border-solid max-md:pl-5">

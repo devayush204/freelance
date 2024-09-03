@@ -103,7 +103,7 @@ const HomePage: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col items- w-[100vw] ">
+    <div className="flex flex-col items-center w-[100vw] ">
       <Header 
         title="One-stop solution for comprehensive business services"
         subtitle="Welcome to Brandigo, your one-stop solution for comprehensive business services designed to elevate your brand and streamline your operations. With a diverse portfolio of offerings ranging from QR Management Solutions and Soundbox Management to Merchant Management, Printing Solutions, and Digital Marketing, Brandigo is dedicated to empowering businesses with cutting-edge technology and innovative strategies. Our commitment to excellence and customer satisfaction has positioned us as a trusted partner for numerous esteemed clients across various industries."
@@ -120,7 +120,7 @@ const HomePage: React.FC = () => {
             alt=""
             className="object-contain shrink-0 self-stretch my-auto w-12 aspect-square"
           />
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center ">
+          <div className="grid grid-cols-1 lg:grid-cols-3 px-4 gap-5 items-center ">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}

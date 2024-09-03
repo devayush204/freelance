@@ -15,7 +15,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   imageSrc,
 }) => {
   return (
-    <div className="flex overflow-hidden flex-col pt-11 rounded-2xl border-4 border-black border-solid min-w-[240px] w-[403px]">
+    <div className="flex overflow-hidden flex-col pt-11 rounded-2xl border-4 border-blue-700 border-solid min-w-[240px] w-[403px]">
       <div className="flex flex-col px-7 w-full max-md:px-5">
         <h3 className="ml-2.5 text-2xl tracking-tighter leading-none max-md:mr-2.5">
           {title}

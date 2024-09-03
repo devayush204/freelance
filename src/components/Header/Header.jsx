@@ -4,6 +4,8 @@
 import React from "react";
 import NavItem from "./NavItem";
 import Button from "../Button/Button";
+import Image from "next/image";
+import logo from "../../../public/logo.png"
 
 const navItems = [
   { label: "Services", hasDropdown: true, link:"/ourservices" },
@@ -16,11 +18,11 @@ function Header() {
   return (
     <header className="flex flex-wrap  justify-between w-[100vw] px-10 md:px-20 py-5 text-base">
       <nav className="flex gap-2.5 items-center text-slate-900">
-        <img
+        <Image
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/be071be76890934db1be2670ac28e6a5a8867ec5d934366995a6e1dccf507876?placeholderIfAbsent=true&apiKey=0d7a153a28b9484c96314809a6915196"
+          src={logo}
           alt="Company logo"
-          className="object-contain shrink-0 self-stretch max-w-full aspect-[2.4] w-[185px]"
+          className="object-contain shrink-0 self-stretch max-w-full aspect-[2.4] w-[100px] md:w-[165px]"
         />
         <div className="hidden lg:flex">
         {navItems.map((item, index) => (
@@ -28,9 +30,9 @@ function Header() {
         ))}
         </div>
       </nav>
-      <div className="flex gap-5 items-center self-start mt-2">
-        <div className="grow self-stretch my-auto text-slate-900">Login</div>
-        <Button label="Sign up free →" />
+      <div className="flex gap-5 items-center justify-center mt-2">
+        {/* <div className="grow self-stretch my-auto text-slate-900">Login</div> */}
+        {/* <Button label="Sign up free →" /> */}
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/fbbc90a4c2a14b911b4f564f7f2e80b8f64a5eefe36e006f8ea3dc4f28ddc7f0?placeholderIfAbsent=true&apiKey=0d7a153a28b9484c96314809a6915196"

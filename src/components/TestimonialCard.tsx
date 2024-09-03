@@ -13,7 +13,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   quote,
 }) => {
   return (
-    <div className="flex flex-col pt-6 pr-6 pb-11 pl-6 min-w-[240px] w-[360px] max-md:px-5">
+    <div className="flex flex-col pt-6 pr-6 pb-11 pl-6 min-w-[240px] w-[360px] max-md:px-5 border-[3px] border-blue-700 rounded-xl">
       <h3 className="text-2xl font-bold tracking-tight leading-none text-slate-900">
         {heading}
       </h3>
